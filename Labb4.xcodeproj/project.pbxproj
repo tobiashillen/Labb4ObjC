@@ -13,6 +13,7 @@
 		8B5131FF1E3F720F005BD506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5131FD1E3F720F005BD506 /* Main.storyboard */; };
 		8B5132011E3F720F005BD506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5132001E3F720F005BD506 /* Assets.xcassets */; };
 		8B5132041E3F720F005BD506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5132021E3F720F005BD506 /* LaunchScreen.storyboard */; };
+		8B51320D1E3F734A005BD506 /* Diagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B51320C1E3F734A005BD506 /* Diagram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8B5132001E3F720F005BD506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5132031E3F720F005BD506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5132051E3F720F005BD506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B51320B1E3F734A005BD506 /* Diagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diagram.h; sourceTree = "<group>"; };
+		8B51320C1E3F734A005BD506 /* Diagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diagram.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				8B5132021E3F720F005BD506 /* LaunchScreen.storyboard */,
 				8B5132051E3F720F005BD506 /* Info.plist */,
 				8B5131F41E3F720F005BD506 /* Supporting Files */,
+				8B51320B1E3F734A005BD506 /* Diagram.h */,
+				8B51320C1E3F734A005BD506 /* Diagram.m */,
 			);
 			path = Labb4;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5131FC1E3F720F005BD506 /* ViewController.m in Sources */,
+				8B51320D1E3F734A005BD506 /* Diagram.m in Sources */,
 				8B5131F91E3F720F005BD506 /* AppDelegate.m in Sources */,
 				8B5131F61E3F720F005BD506 /* main.m in Sources */,
 			);
